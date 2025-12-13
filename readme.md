@@ -404,3 +404,112 @@ Multiplication and division are not fundamental interactions. They are projectio
 Closed systems cannot multiply without decomposition. Arithmetic works because it assumes decomposition has already occurred.
 
 Recognizing this distinction allows mathematics to model generative, biochemical, and structural systems without contradiction, while retaining arithmetic as a useful—but explicitly limited—view.
+
+## Index
+
+## A. Identity-Free, Decomposable Domains — Index and Explanation
+
+### A.1. Definition Overview
+
+This section introduces the core concept of *identity-free, decomposable domains*. These domains are characterized by two properties that are usually implicit in arithmetic but rarely stated explicitly: the lack of meaningful individual identity, and the ability to decompose elements arbitrarily without changing their meaning. Together, these properties explain why multiplication and division behave cleanly in arithmetic and why they fail when applied to conserved physical systems.
+
+---
+
+### A.2. Identity-Free Domains
+
+An identity-free domain is one in which individual units have no distinguishing features. Any unit can be substituted for another without altering the outcome of an operation.
+
+In such domains:
+- Units are interchangeable.
+- Individual history does not matter.
+- Only the total quantity is observable or relevant.
+
+Examples include abstract numbers, currency units in accounting, or counts of indistinguishable items. Arithmetic assumes identity-free behavior by default, which allows operations like multiplication to ignore the provenance or structure of individual units.
+
+---
+
+### A.3. Decomposable Domains
+
+A decomposable domain is one in which elements can be subdivided into smaller parts and recombined freely without changing their semantic meaning.
+
+In decomposable domains:
+- Subdivision preserves equivalence.
+- Parts can be rearranged arbitrarily.
+- Recombination does not introduce new structure.
+- Conservation applies only to quantity, not to form.
+
+Examples include splitting money into smaller denominations, dividing time into smaller intervals, or expressing numbers as sums of units. Decomposition is assumed to be harmless because no internal structure is considered meaningful.
+
+---
+
+### 4. Why Arithmetic Requires Both Properties
+
+Arithmetic multiplication relies simultaneously on identity-freedom and decomposability. For a product such as:
+
+$$
+5 \times 7 = 35
+$$
+
+to be meaningful, it must be possible to:
+- treat all units as interchangeable,
+- decompose one operand into parts compatible with the other,
+- recombine those parts freely without loss or residue.
+
+These steps are never stated explicitly in arithmetic because they are always assumed to be valid in the domains arithmetic was designed to model.
+
+---
+
+### A.5. Domains Where the Assumptions Fail
+
+Many real-world systems violate one or both assumptions required by arithmetic multiplication.
+
+#### Chemistry
+- Molecules possess distinct identities.
+- Arbitrary decomposition destroys molecular structure.
+- Binding interactions saturate rather than multiply.
+
+#### Biology
+- Cells, enzymes, and templates have functional identity.
+- Decomposition alters or destroys function.
+- Identity and conservation are essential.
+
+#### Software Systems
+- Objects and types carry semantic meaning.
+- Copying or splitting changes behavior.
+- Units are not interchangeable without consequence.
+
+In these domains, multiplication predicts outcomes that cannot physically or logically occur.
+
+---
+
+### A.6. Why Arithmetic Still Works
+
+Arithmetic remains internally consistent and extremely useful because it operates within domains that satisfy its assumptions. Historically, arithmetic developed to support:
+- counting,
+- measurement,
+- bookkeeping,
+- geometry,
+- trade.
+
+Within these contexts, identity-freedom and decomposability are either true or sufficiently approximated, allowing multiplication and division to function as intended.
+
+---
+
+### A.7. Core Intuition
+
+The key distinction is not between “correct” and “incorrect” mathematics, but between domains where arithmetic is faithful and domains where it is a projection.
+
+- Identity-free systems support scalar multiplication directly.
+- Identity-preserving systems require richer interaction models.
+- Decomposable systems permit explosion of combinations.
+- Conserved systems saturate, bind, or leave residues.
+
+Arithmetic describes the *view after structure has been erased*.
+
+---
+
+### A.8. Formal Definition
+
+An **identity-free, decomposable domain** is a domain in which elements are indistinguishable as individuals and can be arbitrarily decomposed and recombined without altering their meaning. Arithmetic multiplication and division are well-defined in such domains because identity and internal structure play no role in determining outcomes.
+
+When these conditions are not met, arithmetic operations remain syntactically valid but no longer correspond to realizable system behavior.
