@@ -169,20 +169,14 @@ Division is defined as **decomposition followed by selective recomposition**, wi
 
 We begin by stating an invariant of the interaction system:
 
-**Invariant:** The composite component \(c\) can be zero *only if* at least one of the operands \(t\) or \(r\) was zero at the time of multiplication.
+> **Invariant:** The composite component \(c\) can be zero *only if* at least one of the operands \(t\) or \(r\) was zero at the time of multiplication.
+> 
+> That is:
+> 
+> $$
+> c = 0 \quad \text{if and only if} \quad (t = 0 \text{ or } r = 0)
+> $$
 
-That is:
-
-$$
-c = 0 \quad \text{if and only if} \quad (t = 0 \text{ or } r = 0)
-$$
-
-
-> **Invariant:** The composite component \(c\) can be zero *only* if at least one of the operands \(t\) or \(r\) was zero at the time of multiplication.  
-> That is,
-> \[
-> c = 0 \;\Longleftrightarrow\; (t = 0) \;\lor\; (r = 0)
-> \]
 
 Consider the system state produced when no decomposition has occurred.  
 This arises precisely when one operand of multiplication was zero, so no interaction took place.
