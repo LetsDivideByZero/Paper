@@ -40,6 +40,91 @@ But no physical process yields 35 molecules without violating conservation. This
 
 ---
 
+## Background: Historical Semantics of Multiplication and Division
+
+Multiplication and division did not originate as abstract algebraic operations over identity-free quantities. They emerged gradually as **procedural tools** for counting, measuring, partitioning, and scaling concrete objects.
+
+Understanding this history is essential, because many of the assumptions embedded in modern arithmetic were introduced implicitly, not by necessity.
+
+---
+
+### Early Origins: Procedures, Not Operators
+
+In early mathematical traditions—including Babylonian, Egyptian, and Greek arithmetic—multiplication was understood operationally as:
+
+- repeated addition,
+- geometric construction (such as area),
+- proportional scaling.
+
+Division arose symmetrically as:
+
+- fair partitioning,
+- distribution into equal groups,
+- or measurement (“how many times does this fit?”).
+
+At this stage, multiplication and division were **procedures applied to collections**, not abstract operators acting on structureless quantities.
+
+---
+
+### Abstraction and the Loss of Identity
+
+As arithmetic became formalized, especially through Greek geometry and later symbolic algebra, numbers were increasingly detached from their physical referents.
+
+This abstraction silently introduced several assumptions:
+
+- units are interchangeable,
+- internal structure is irrelevant,
+- identity is not conserved,
+- only magnitude matters.
+
+Once these assumptions were in place, multiplication could be expressed as a single scalar relation:
+
+\[
+t \times r = c
+\]
+
+Division was then defined as its inverse.
+
+These definitions worked precisely because **identity and structure had already been discarded**.
+
+---
+
+### Algebraic Formalization and the Absorbing Zero
+
+With the development of algebraic structures such as rings and fields, multiplication and division were further constrained to satisfy axioms like associativity, commutativity, and distributivity.
+
+Within this framework:
+
+- zero became an absorbing element under multiplication,
+- division by zero became undefined by construction.
+
+These properties are internally consistent—but they rely on the assumption that multiplication erases structure completely.
+
+---
+
+### The Hidden Assumption
+
+What historical arithmetic never needed to make explicit was the **decomposition step**.
+
+In physical systems, realizing a multiplicative outcome requires:
+
+- decomposition of operands into fungible parts,
+- loss of original identity,
+- recombination into new entities.
+
+Arithmetic hides this step because it operates in domains where decomposition is either assumed or irrelevant.
+
+When arithmetic is applied to closed systems where identity is conserved—such as molecules, enzymes, templates, or generative processes—this hidden assumption becomes the source of contradiction.
+
+---
+
+### Positioning of This Work
+
+The goal of this paper is not to reject multiplication or division, but to **lift them to a deeper semantic level** where decomposition and recombination are explicit.
+
+Classical arithmetic is recovered as a **lossy projection** of this richer process, while new interaction patterns become accessible when identity and conservation are preserved.
+
+
 ## 2. Binding vs. Multiplication in Chemistry
 
 Chemical interaction is modeled as:
