@@ -193,45 +193,58 @@ By definition of the system:
 - no recomposition occurred,
 - no composites were formed.
 
-Hence the composite component satisfies:
+The full interaction state is therefore:
 
-\[
+$$
+(t, r, c) = (t, 0, 0)
+$$
+
+By definition of the system:
+
+- no decomposition occurred
+- no recomposition occurred
+- no composites were formed
+
+Hence, the composite component satisfies:
+
+$$
 c = 0
-\]
+$$
 
-Now consider division by zero. Division is defined as **decomposition followed by selective recomposition**.  
+Now consider division by zero. Division is defined as **decomposition followed by selective recomposition**.
 We therefore substitute the value of \(c\) explicitly into the division expression:
 
-\[
+$$
 c \div 0 = 0 \div 0
-\]
+$$
 
-Since no decomposition ever occurred (as guaranteed by the invariant above), there are no decomposed parts to recombine.  
+Since no decomposition ever occurred (as guaranteed by the invariant above), there are no decomposed parts to recombine.
 Division therefore performs **no recomposition step**.
 
 The operation reduces to a no-op over the preserved system state:
 
-\[
-(t, 0, 0) \;\longrightarrow\; (t, 0, 0)
-\]
+$$
+(t, 0, 0) \;\rightarrow\; (t, 0, 0)
+$$
 
 If the division query asks for reconstruction of structure, the result is:
 
-\[
+$$
 c \div 0 = t
-\]
+$$
 
 If the division query instead asks for reconstruction of process capacity, the result is:
 
-\[
+$$
 c \div 0 = r
-\]
+$$
 
-In both cases, nothing is created, destroyed, or inverted.  
+In both cases, nothing is created, destroyed, or inverted.
 The division operation merely **selects an existing component of the unchanged state**.
 
-Therefore, division by zero is **well-defined** in this system:  
+Therefore, division by zero is **well-defined** in this system:
 it represents a no-op over structure rather than an undefined inverse.
+
 
 
 ---
