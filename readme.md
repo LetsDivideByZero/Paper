@@ -11,6 +11,8 @@ Arithmetic multiplication and division operate correctly within identity-free, d
 
 ## 1. The Problem: Multiplication in Closed Physical Systems
 
+I love patterns and it bugs me to no reason when a pattern has a exception - thus the rule that you can divide any number by another number other than zero has really bugged me since late high school.  It bugged me to a point that when I started doing proofs in college, it became a sticking point.  I got all As in high school geometry, but when it came to down college proofs, I struggled.  While I could wrap my head around most of the rules of math, division always caused me heart burn.  One offs tell me we don't have a complete understanding of what is going on.  
+
 In arithmetic, multiplication is defined as a scalar operation:
 
 $$
