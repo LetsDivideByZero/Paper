@@ -167,19 +167,69 @@ Division is defined as **decomposition followed by selective recomposition**, wi
 
 ### 8.1 Case: Division by Zero
 
-When no decomposition occurred:
+We begin by stating an invariant of the interaction system:
 
-$$
-(t, 0, 0)
-$$
+> **Invariant:** The composite component \(c\) can be zero *only* if at least one of the operands \(t\) or \(r\) was zero at the time of multiplication.  
+> That is,
+> \[
+> c = 0 \;\Longleftrightarrow\; (t = 0) \;\lor\; (r = 0)
+> \]
 
-Division performs no recomposition. The system state is unchanged.
+Consider the system state produced when no decomposition has occurred.  
+This arises precisely when one operand of multiplication was zero, so no interaction took place.
 
-$$
-c \div 0 = t \quad \text{or} \quad c \div 0 = r
-$$
+The full interaction state is therefore:
 
-Division by zero is therefore **well-defined**: it is a no-op over structure.
+\[
+(t, r, c) = (t, 0, 0)
+\]
+
+By definition of the system:
+
+- no decomposition occurred,
+- no recomposition occurred,
+- no composites were formed.
+
+Hence the composite component satisfies:
+
+\[
+c = 0
+\]
+
+Now consider division by zero. Division is defined as **decomposition followed by selective recomposition**.  
+We therefore substitute the value of \(c\) explicitly into the division expression:
+
+\[
+c \div 0 = 0 \div 0
+\]
+
+Since no decomposition ever occurred (as guaranteed by the invariant above), there are no decomposed parts to recombine.  
+Division therefore performs **no recomposition step**.
+
+The operation reduces to a no-op over the preserved system state:
+
+\[
+(t, 0, 0) \;\longrightarrow\; (t, 0, 0)
+\]
+
+If the division query asks for reconstruction of structure, the result is:
+
+\[
+c \div 0 = t
+\]
+
+If the division query instead asks for reconstruction of process capacity, the result is:
+
+\[
+c \div 0 = r
+\]
+
+In both cases, nothing is created, destroyed, or inverted.  
+The division operation merely **selects an existing component of the unchanged state**.
+
+Therefore, division by zero is **well-defined** in this system:  
+it represents a no-op over structure rather than an undefined inverse.
+
 
 ---
 
