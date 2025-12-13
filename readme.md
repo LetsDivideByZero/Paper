@@ -36,7 +36,7 @@ $$
 5 \times 7 = 35
 $$
 
-But no physical process yields 35 molecules without violating conservation. This discrepancy is not accidental—it reveals a mismatch between arithmetic semantics and physical interaction.
+But no physical process yields 35 $E$ or $S$ molecules without violating conservation. This discrepancy is not accidental—it reveals a mismatch between arithmetic semantics and physical interaction.
 
 ---
 
@@ -79,9 +79,9 @@ This abstraction silently introduced several assumptions:
 
 Once these assumptions were in place, multiplication could be expressed as a single scalar relation:
 
-\[
+$$
 t \times r = c
-\]
+$$
 
 Division was then defined as its inverse.
 
