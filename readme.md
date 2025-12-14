@@ -11,7 +11,7 @@ Arithmetic multiplication and division operate correctly within identity-free, d
 
 ## 1. The Problem: Multiplication in Closed Physical Systems
 
-I love patterns and it bugs me to no reason when a pattern has a exception - thus the rule that you can divide any number by another number other than zero has really bugged me since late high school.  It bugged me to a point that when I started doing proofs in college, it became a sticking point.  I got all As in high school geometry, but when it came to down college proofs, I struggled.  While I could wrap my head around most of the rules of math, division always caused me heart burn.  One offs tell me we don't have a complete understanding of what is going on.  
+I love patterns and when one has an exception, it bugs me to no end as it usually means something is afoot - for example, the rule one can divide any number by another number, as long as it is not by zero. This has bothered me since high school. When I started doing proofs in college, it became a sticking point.   As I got older, my issue with division never went away.  As I studied computer science, the concept of a _view_ came into a play more and more.  First database systems, then with other dynamic systems.  And I got to thinking, this applies to math too, and our view of numbers.  Are our basic axioms and definitions incomplete?  We are not perfect, and we have exceptions, so probably.  
 
 In arithmetic, multiplication is defined as a scalar operation:
 
@@ -25,7 +25,7 @@ This definition implicitly assumes:
 - identity is irrelevant
 - only the resulting count matters
 
-In closed physical systems, these assumptions are false.
+In closed physical systems, these assumptions are false which is our second clue that something is off. 
 
 Consider a system containing:
 
@@ -38,7 +38,7 @@ $$
 5 \times 7 = 35
 $$
 
-But no physical process yields 35 $E$ or $S$ molecules without violating conservation. This discrepancy is not accidental—it reveals a mismatch between arithmetic semantics and physical interaction.
+But no physical process yields 35 $E$ or $S$ molecules without violating conservation. This discrepancy is not accidental—it reveals a mismatch between arithmetic semantics and physical interaction - and hints at a missing dimension of the picture.
 
 ---
 
